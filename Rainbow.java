@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class Rainbow {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         int randomValue = new Random().nextInt(7);
 
         System.out.println(++randomValue);
